@@ -1,0 +1,10 @@
+{
+  "name": "50-before-30",
+  "version": "0.1.0",
+  "description": "Static site of states visited",
+  "main": "map.js",
+  "scripts": {},
+  "dependencies": {
+    "ammap3": "3.21.13"
+  }
+}
