@@ -5,4 +5,4 @@ Node version: v8.10.0
 Installation:
 * Clone Repo
 * `npm install`
-* `node app.js` Application should be running at localhost:3000.
+* `npm start`. Application should be running at localhost:3000.
