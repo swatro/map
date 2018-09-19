@@ -22,15 +22,15 @@ var map;
 AmCharts.ready(function() {
     map = new AmCharts.AmMap();
     map.dataProvider = dataProvider;
-    map.balloon.color = "#000000";
     map.dragMap = false;
     map.backgroundColor = "#ffffff";
     map.zoomOnDoubleClick = false;
 
     map.areasSettings = {
         autoZoom: false,
-        selectedColor: "#CC0000",
-        selectable: true
+        selectable: true,
+        selectedColor: "#ff8c00", 
+        rollOverOutlineColor: "#ff8c00"
     };
 
     map.zoomControl = {
