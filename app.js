@@ -6,6 +6,6 @@ app.use(express.static(__dirname));
 
 app.get('/', (req, res) => res.sendFile(__dirname+ '/index.html'));
 
-app.get('/state/:abbrev', (req,res) => res.sendFile(__dirname+ '/state.html'));
+app.get('/state/:abbrev', (req,res) => res.sendFile(__dirname+ '/src/state.html'));
 
 app.listen(port, () => console.log(`Example app listening on port ${port}!`));

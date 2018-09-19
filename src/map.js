@@ -39,7 +39,8 @@ AmCharts.ready(function() {
     }
 
     map.addListener('clickMapObject', function(event){
-    	console.log("event")
+      var stateAbbre = event.mapObject.id.split("US-")[1]
+      window.location.pathname = 'state/'+ stateAbbre
     })
     map.write("mapdiv");
 
