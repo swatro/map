@@ -14,3 +14,9 @@
   border-bottom: 0.1rem solid #e4e4e4;
   min-width: 80rem;
 }
+
+.imagecontainer{
+	width: 30rem;
+	margin: 1rem;
+	height: auto;
+}
