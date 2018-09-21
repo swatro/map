@@ -16,7 +16,13 @@
 }
 
 .imagecontainer{
-	width: 30rem;
-	margin: 1rem;
-	height: auto;
+  width: 30rem;
+  margin: 1rem;
+  height: auto;
+}
+
+.statetext{
+  font-size: 2rem;
+  font-family: monospace;
+  text-align: center;
 }
